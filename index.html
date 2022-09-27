@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1"> 
     <title>SupplyCon</title>
 
     <!--bootstrap-->
@@ -14,9 +14,6 @@
     <!-- css -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/index.css">
@@ -119,15 +116,15 @@
 
         <section id="down"><!-- down -->
             <div class="down_area">
-                <button>
+                <button  data-aos="flip-up">
                   <a href="">
                     Whitepaper</a>
                 </button>
-                <button>
+                <button  data-aos="flip-up">
                   <a href="">
                     Wallet</a>
                 </button>
-                <button>
+                <button  data-aos="flip-up" data-aos-duration="3000">
                     <a href="index_eng.html">English <img src="img/wep_eng.png" alt="English"></a>
                 </button>
               </div>
@@ -135,11 +132,13 @@
 
 
         <section id="intro1"><!-- intro1 -->
-            <div class="intro1_bg"></div>
+            <div class="intro1_bg">
+                <img src="img/bg_icon 3.png" alt="">
+            </div>
 
-            <div class="intro1_wrap contents">
+            <div class="intro1_wrap contents" data-aos="zoom-in-up">
                 <div class="intro1_block_box">
-                <div class="intro1_txt">
+                <div class="intro1_txt" >
                     <h3>Intro.</h3>
 
                     <p>서플라이콘은 supply(공급)과 continuity(연속성)의 합성어로 핵심 광물의 공급을 지속적이고 안정적으로<br>
@@ -154,30 +153,175 @@
             </div>
         </section><!-- intro1 -->
 
-        <section id="contact">
-            <div class="con_area container" >
-                <h3 data-aos="fade-up"
-                data-aos-duration="3000">Contact</h3>
-                <div class="con_box" data-aos="zoom-in">
-                    <div class="con_left">
-                        <img src="img/con_logo.png" alt="logo">
-                        <ul class="con_int">
-                            <li><i class="xi-profile-o"></i><b>CEO |</b></li>
-                            <li><i class="xi-building"></i><b>ADDRESS</b> |</li>
-                            <li><i class="xi-mobile"></i><b>PHONE</b> </li>
-                        </ul>
-                    </div>
-                    <div class="con_right">
-                        <h4>Ask for a quotation from us !</h4>
-                        <form class="gform" action="" data-email="contact@semicon1.net" method="">
-                            <input type="email" value placeholder="E-mail" class="email" required style="color: #fff !important;">
-                            <textarea name="message" id="message" placeholder="Message" ></textarea>
-                            <input type="submit" value="SEND" class="send">
-                        </form>
-                    </div>
+      
+
+        
+
+    <section id="coin">
+        <div class="bg_icon3_coin"><img src="img/bg_icon 3.png" alt=""></div>
+        <div class="bg_icon3_coin_2"><img src="img/bg_icon 3.png" alt=""></div>
+
+
+        <div class="coin_wrap container">
+
+
+
+
+            <h3 data-aos="zoom-in-up">서플라이콘(SupplyCon) Coin 자금배분계획</h3>
+
+            <p data-aos="zoom-in-up">글로벌 광물 사업은 국가의 기간산업의 기초가 되는 필수 원자재 공급 사업이므로 규모와 안전성, 합법성의 조기확보가 사업의 성패를 가릅니다.<br>
+                이러한 소기의 목적에 맞도록 투자하되 특히 정보제공을 위한 라이선스 취득에 가장 핵심역량을 집중할 계획입니다.</p>
+
+
+            <div class="coin_contents">
+                <div class="coin_contents_left">
+                    <div class="coin_graph"data-aos="zoom-out-up"><img src="img/coin_circle.png" alt="coin_circle"></div>
+
+                    <div class="coin_percentage" data-aos="zoom-out-up">
+                        <div class="coin_perc_left">
+
+                            <div class="coin_box">
+                                <span class="coin_perc_color_box coin_perc_color_box1"></span>
+                                <p>코인세일 20%</p>
+                            </div>
+
+                            <div class="coin_box">
+                                <span class="coin_perc_color_box coin_perc_color_box2"></span>
+                                <p>자원채취 3차 라이선스 취득 20%</p>
+                            </div>
+
+                            <div class="coin_box">
+                                <span class="coin_perc_color_box coin_perc_color_box3"></span>
+                                <p>글로벌 기업 마케팅 20%</p>
+                            </div>
+                        </div><!-- coin_perc_left -->
+
+
+
+                        <div class="coin_perc_right">
+
+                            <div class="coin_box">
+                                <span class="coin_perc_color_box coin_perc_color_box4"></span>
+                                <p>신규 기술 보유 기업 인수합병 20%</p>
+                            </div>
+
+                            <div class="coin_box">
+                                <span class="coin_perc_color_box coin_perc_color_box5"></span>
+                                <p>서플라이 체인 플랫폼 제작 10%</p>
+                            </div>
+
+                            <div class="coin_box">
+                                <span class="coin_perc_color_box coin_perc_color_box6"></span>
+                                <p>팀 배분 10%</p>
+                            </div>
+                        </div><!-- coin_perc_right -->
+                    </div><!-- coin_percentage -->
+
+                </div><!-- coin_contents_left -->
+
+
+                <div class="coin_contents_right">
+
+                    <div class="coin_cont_right_wrap">
+
+                            <div class="coin_cont_right_box" data-aos="flip-left">
+                                <p>Coin name:<br class="coin_br"> SupplyCon</p>
+                            </div><!-- coin_cont_right_box -->
+
+                            <div class="coin_cont_right_box" data-aos="flip-left">
+                                <p>Symbol:<br class="coin_br"> SPLC</p>
+                            </div><!-- coin_cont_right_box -->
+
+                            <div class="coin_cont_right_box" data-aos="flip-left">
+                                <p>Protocol:<br class="coin_br"> ERC20</p>
+                            </div><!-- coin_cont_right_box -->
+
+                            <div class="coin_cont_right_box" data-aos="flip-left">
+                                <p>Total supply:<br class="coin_br">400,000,000</p>
+                            </div><!-- coin_cont_right_box -->
+
+
+                    </div><!-- coin_cont_right_wrap -->
+
+                </div><!-- coin_contents_right -->
+            </div><!-- coin_contents -->
+        </div><!-- coin_wrap -->
+    </section><!-- coin -->
+
+
+
+
+
+    <section id="roadmap">
+        <div class="bg_icon3_rdmap"><img src="img/bg_icon 3.png" alt=""></div>
+
+        <div class="roadmap_wrap container">
+            <h3 data-aos="zoom-in-up">서플라이콘(SupplyCon) Roadmap</h3>
+
+            <div class="rdmap_contents">
+                <div class="rdmap_box rdmap_box1" data-aos="zoom-in-up">
+                    <b>2021</b>
+                    <br><br>
+                    <ul>
+                        <li>Q3 SupplyCon 설립</li>
+                        <li>Q4 서플라이콘 플랫폼 프로토타입 제작 방향 수립</li>
+                    </ul>
+                </div><!-- rdmap_box -->
+
+                <div class="rdmap_box rdmap_box2" data-aos="zoom-in-up">
+                    <b>2022</b>
+                    <br><br>
+                    <ul>
+                        <li>Q1 플랫폼 기본설계</li>
+                        <li>Q2 6대 전략광물 거래업체 선정 시작</li>
+                        <li>Q3 거래 및 보관기능 web지갑 출시 및 글로벌상장</li>
+                        <li>Q4 글로벌 운송 기업 경쟁입찰 시스템 설계</li>
+                    </ul>
+                </div><!-- rdmap_box -->
+
+                <div class="rdmap_box rdmap_box3" data-aos="zoom-in-up" data-aos-duration="3000">
+                    <b>2023</b>
+                    <br><br>
+                    <ul>
+                        <li>Q1 아시아 지역 및 북미 상위권 거래소 상장 확대</li>
+                        <li>Q2 1차 기능 포함 플랫폼 프로토타입 설계완료</li>
+                        <li>Q3 경제성 확보 채굴사이트 사업 시작</li>
+                        <li>Q4 SupplyCon 플랫폼 고도화 작업</li>
+                    </ul>
+                </div><!-- rdmap_box -->
+
+
+
+            </div><!-- rdmap_contents -->
+        </div><!-- roadmap_wrap -->
+    </section><!-- roadmap -->
+
+
+    <section id="contact">
+        <div class="con_area container" >
+            <h3 data-aos="fade-up"
+            data-aos-duration="3000">Contact</h3>
+            <div class="con_box" data-aos="zoom-in">
+                <div class="con_left">
+                    <img src="img/con_logo.png" alt="logo">
+                    <ul class="con_int">
+                        <li><i class="xi-profile-o"></i><b>CEO |</b></li>
+                        <li><i class="xi-building"></i><b>ADDRESS</b> |</li>
+                        <li><i class="xi-mobile"></i><b>PHONE</b> </li>
+                    </ul>
+                </div>
+                <div class="con_right">
+                    <h4>Ask for a quotation from us !</h4>
+                    <form class="gform" action="" data-email="contact@semicon1.net" method="">
+                        <input type="email" value placeholder="E-mail" class="email" required style="color: #fff !important;">
+                        <textarea name="message" id="message" placeholder="Message" ></textarea>
+                        <input type="submit" value="SEND" class="send">
+                    </form>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
+
 
     </main>
 

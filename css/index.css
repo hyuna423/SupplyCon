@@ -26,6 +26,7 @@ h3 {
 
 body{
   overflow-x: hidden;
+  position: relative;
   background: #221C1C;
 }
 
@@ -525,21 +526,16 @@ input[type="checkbox"] {
   padding: 5% 8%;
   position: relative;
  }
-.intro1_bg {
-  background: url(../img/bg_icon\ 3.png) no-repeat;
-  background-size: cover;
-  transform: rotate(17.08deg);
-  backdrop-filter: blur(1.5px);
-  z-index: -10;
 
-  width: 50%;
-  height: 1000px;
-  top: 0;
-  right: 0;
-  margin-top: -13%;
-  margin-right: -10%;
+ #intro1 .intro1_bg{
   position: absolute;
+  top: -50%;
+  right: -10%; }
+
+ #intro1 .intro1_bg img{
+  width: 914px;
   animation: rotate_image 1000s linear infinite;transform-origin: 50% 50%;
+  z-index: -1;
 }
 
 @keyframes rotate_image{
@@ -550,6 +546,7 @@ input[type="checkbox"] {
 
 .intro1_wrap {
   width: 100%;
+  position: relative;
 }
 .intro1_block_box {
   width: 100%;
@@ -577,11 +574,278 @@ input[type="checkbox"] {
 }
  /* intro1 */
 
-/* contact */
-#contact {
-  width: 100%;
 
+
+ 
+
+
+/*coin*/
+
+#coin{
+  width: 100%;
+  padding: 100px 0;
+  position: relative;
 }
+
+
+
+.bg_icon3_coin img{
+  width: 815.54px;
+  height: auto;
+  position: absolute;
+  right: -10%;
+  bottom: -52%;
+  animation: rotate_image 1000s linear infinite;transform-origin: 50% 50%;
+}
+
+@keyframes rotate_image{
+  100% {
+      transform: rotate(11050deg);
+  }
+}
+
+
+.bg_icon3_coin_2 img{
+  position:absolute;
+  left:0;
+  top: -10%;
+  width: 497px;
+  height: 502px;
+  animation: rotate_image 1000s linear infinite;transform-origin: 50% 50%;
+}
+
+@keyframes rotate_image{
+  100% {
+      transform: rotate(11050deg);
+  }
+}
+
+.coin_wrap{
+  width: 100%;
+  position: relative;
+}
+
+.coin_wrap > h3, .coin_wrap> p{
+  text-align: center;
+}
+
+.coin_wrap p{
+  color: #fff;
+}
+
+
+.coin_contents{
+  width: 100%;
+  display: flex;
+  margin-top: 10%;
+  align-items: center;
+/*   justify-content: space-around; */
+}
+
+.coin_contents_left{
+  border-right: 1px solid #81F59A;
+  box-shadow: 7px 0 7px -7px #81F59A;
+  padding: 1%;
+  width: 48%;
+}
+
+.coin_graph{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.coin_graph img{
+  max-width: 60%;
+}
+
+
+
+.coin_percentage{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 0.9em;
+}
+
+.coin_perc_left{
+  width: 49%;
+  text-align: left;
+  margin-left: 12%;
+}
+
+.coin_box{
+  width: 100%;
+}
+
+.coin_box span{
+  width: 28px;
+  height: 10px;
+  display: inline-block;
+}
+
+.coin_percentage p{
+  display: inline-block;
+}
+
+.coin_perc_color_box1{
+  background-color: #278E93;
+}
+.coin_perc_color_box2{
+  background-color: #48BED0;
+}
+.coin_perc_color_box3{
+  background-color: #85C89B;
+}
+.coin_perc_color_box4{
+  background-color: #82CDDC;
+}
+.coin_perc_color_box5{
+  background-color: #69C3B5;
+}
+.coin_perc_color_box6{
+  background-color: #B4D9A7;
+}
+
+
+.coin_perc_right{
+  width: 49%;
+}
+
+
+.coin_contents_right{
+  width: 48%;
+}
+
+.coin_bg_logo{
+  width: 100%;
+}
+
+
+
+.coin_cont_right_wrap{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 5%;
+  text-align: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.coin_cont_right_wrap::after{
+  position: absolute;
+  content: "";
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: url(../img/coin_bg_Logo.png) no-repeat;
+  width: 496px;
+  height: 496px;
+}
+
+.coin_cont_right_up{
+  width: 100%;
+}
+
+.coin_cont_right_down{
+  width: 100%;
+}
+
+.coin_cont_right_box{
+  background: linear-gradient( rgba(217,217,217,0.7), rgba(217,217,217,0.1), rgba(217,217,217,0.3));
+  background: -webkit-linear-gradient( rgba(217,217,217,0.7), rgba(217,217,217,0.1), rgba(217,217,217,0.3));
+  width: 45%;
+  padding: 10%;
+  margin-bottom: 5%;
+  border-radius: 15px;
+}
+
+.coin_cont_right_box:nth-child(3){
+  margin-bottom: 0;
+}
+.coin_cont_right_box:nth-child(4){
+  margin-bottom: 0;
+}
+
+
+.coin_br{
+  display: none;
+}
+
+
+
+/*roadmap*/
+
+
+
+
+
+#roadmap{
+  width: 100%;
+  padding: 150px 0;
+  position: relative;
+}
+
+.bg_icon3_rdmap{
+  filter: blur(0.1);
+}
+
+.bg_icon3_rdmap img{
+  position: absolute;
+  left: -35%;
+  bottom: -50%;
+  content: "";
+  width: 1200.84px;
+  height: 1211px;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  animation: rotate_image 1000s linear infinite;transform-origin: 50% 50%;
+  z-index: -19;
+}
+
+@keyframes rotate_image{
+  100% {
+      transform: rotate(11050deg);
+  }
+}
+
+#roadmap h3{
+  text-align: center;
+  margin-bottom: 8%;
+}
+
+.roadmap_wrap{
+  width: 100%;
+}
+
+.rdmap_contents{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  color: #fff;
+}
+
+.rdmap_box{
+  width: 28%;
+  height: 320px;
+  background: linear-gradient( rgba(217,217,217,0.4), rgba(217,217,217,0.1), rgba(217,217,217,0.3));
+  background: -webkit-linear-gradient( rgba(217,217,217,0.4), rgba(217,217,217,0.1), rgba(217,217,217,0.3));
+  padding: 3.5% 2%;
+  border-radius: 20px 20px 0 0;
+  border-bottom: 20px solid #81F59A;
+  position: relative;
+}
+
+.rdmap_box ul li{
+  margin-bottom: 4%;
+}
+
+.rdmap_box2{
+  border-bottom: 20px solid #1FD0E0 !important;
+  margin-top: 50px;
+}
+
 
 /* contact */
 #contact{
