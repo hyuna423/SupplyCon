@@ -1,18 +1,74 @@
 
+.coin_perc_left {
+    margin-left: 0;
+}
+
+.rdmap_box{
+    padding: 1% 2%;
+}
+
+
+
+
 /*데탑*/
 @media screen and (max-width:1440px) {}
 
 
 /*노트북*/
-@media screen and (max-width:1024px) {}
+@media screen and (max-width:1024px) {
+
+    .coin_contents_left{
+        width: 55%;
+        padding:0 1% 0 0;
+    }
+
+    .coin_perc_left{
+        width: 52%;
+    }
+
+    .coin_perc_right{
+        width: 48%;
+    }
+
+    /*rdmap*/
+
+    .rdmap_box{
+        font-size: 0.87em;
+    }
+
+}
 
 
 /*아이패드 (768px)*/
-@media screen and (max-width:991px) {}
+@media screen and (max-width:991px) {
+    .coin_perc_left{
+        width: 100%;
+        margin-left: 25%;
+    }
+
+    .coin_perc_right{
+        width: 100%;
+    }
+}
 
 
 /*모바일*/
-@media screen and (max-width:767px) {}
+@media screen and (max-width:767px) {
+
+    .coin_percentage{
+        display: block;
+        width: 100%;
+        padding: 0 0 10% 0;
+    }
+
+    .coin_contents_left{
+        width: 100%;
+    }
+
+    .coin_perc_right{
+        margin-left: 25%;
+    }
+}
 
 
 /*모바일2*/

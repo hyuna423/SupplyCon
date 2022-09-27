@@ -1,21 +1,233 @@
 /*데탑*/
-@media screen and (max-width:1440px) {}
+@media screen and (max-width:1440px) {
+
+    .coin_percentage{
+        font-size: 0.75em;
+      }
+
+    .coin_contents_right{
+        font-size: 0.82em;
+    }
+    
+}
 
 
 /*노트북*/
-@media screen and (max-width:1024px) {}
+@media screen and (max-width:1024px) {
+    
+    /*coin*/
+    
+    .coin_wrap p{
+        font-size: 0.9em;
+    }
+
+    .coin_contents_left{
+        width: 52%;
+    }
+
+    .coin_contents_right{
+        width: 48%;
+        padding: 5% 1%;
+    }
+
+
+
+    /*roadmap*/
+
+    #roadmap{
+        padding: 100px 0 0;
+    }
+
+    .rdmap_box{
+        width:31.8%;
+        height: 300px;
+        font-size: 0.95em;
+    }
+
+}
 
 
 /*아이패드 (768px)*/
-@media screen and (max-width:991px) {}
+@media screen and (max-width:991px) {
+
+        /*coin*/
+
+        .bg_icon3_coin::after{
+            left: -18%;
+            top: -28%;
+        }
+
+        .bg_icon3_coin_2::after{
+            right: -42%;
+            bottom: -39%;
+        }
+
+    
+        .coin_wrap p br{
+            display: none;
+        }
+    
+        .coin_percentage{
+            display: block;
+        }
+
+        .coin_perc_left{
+            width: 100%;
+            margin-left: 25%;
+        }
+
+        .coin_perc_right{
+            width: 100%;
+            margin-left: 25%;
+        }
+
+        .coin_bg_logo::after{
+            left: 56%;
+        }
+    
+        .coin_contents_right{
+            width: 54%;
+        }
+    
+        .coin_cont_right_box{
+            padding: 13% 1%;
+        }
+    
+    
+        /*roadmap*/
+
+        .rdmap_contents{
+            display: block;
+        }
+
+    
+        .rdmap_box{
+            width:50%;
+            height: 300px;
+            font-size: 0.9em;
+            margin: 0 auto 10%;
+        }
+
+        .rdmap_box2{
+            margin-top: 0;
+        }
+
+        .bg_icon3_rdmap::after{
+            left: -63%;
+            bottom: -85%;
+        }
+
+}
 
 
 /*모바일*/
-@media screen and (max-width:767px) {}
+@media screen and (max-width:767px) {
+
+
+    /*coin*/
+
+    .coin_contents{
+        display: block;
+    }
+
+    .coin_contents_left{
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #81F59A;
+        box-shadow: 0px 7px 7px -7px #81F59A;
+        padding: 1% 1% 12%;
+    }
+
+    .coin_percentage{
+        display:flex;
+    }
+
+    .coin_perc_left{
+        width: 49%;
+        margin-left: 0%;
+    }
+
+    .coin_perc_right{
+        width: 49%;
+        margin-left: 0%;
+    }
+
+    .coin_contents_right{
+        margin-top: 10%;
+        width: 100%;
+    }
+
+    .coin_bg_logo::after{
+        top: 47%;
+        left: 65%;
+    }
+
+    .bg_icon3_coin::after{
+        left: -22%;
+        top: -12%;
+    }
+
+    .bg_icon3_coin_2::after{
+        right: -25%;
+        bottom: -58%;
+    }
+
+
+    .coin_br{
+        display: block !important;
+      }
+
+
+
+      /*rdmap*/
+
+      .rdmap_box{
+        width: 65%;
+        font-size: 0.85em;
+      }
+}
 
 
 /*모바일2*/
-@media screen and (max-width:576px) {}
+@media screen and (max-width:576px) {
+
+    .coin_percentage{
+        display:block;
+    }
+
+    .coin_perc_left{
+        width: 100%;
+        margin-left:26%;
+    }
+
+    .coin_perc_right{
+        width: 100%;
+        margin-left: 26%;
+    }
+
+    .bg_icon3_coin::after{
+        left: -23%;
+        top: -5%;
+    }
+
+    .bg_icon3_coin_2::after{
+        right: -25%;
+        bottom: -65%;
+    }
+
+    /*rdmap*/
+
+    .rdmap_box{
+        width: 80%;
+        font-size: 0.8em;
+      }
+
+      .bg_icon3_rdmap::after{
+        left: -51%;
+        bottom: -110%;
+    }
+
+}
 
 
 /*모바일3 갤럭시*/
