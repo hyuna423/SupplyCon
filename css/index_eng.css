@@ -1,18 +1,40 @@
 
 /*데탑*/
-@media screen and (max-width:1440px) {}
+@media screen and (max-width:1440px) {
+    #intro3::after{
+        right: -9%;
+        top: -5px;
+    }
+}
 
 
 /*노트북*/
-@media screen and (max-width:1024px) {}
+@media screen and (max-width:1024px) {
+    #intro3::after{
+        right: 0;
+        top: 140px;
+    }
+}
 
 
 /*아이패드 (768px)*/
-@media screen and (max-width:991px) {}
+@media screen and (max-width:991px) {
+    #intro3::after{
+        right: -2%;
+        top: 120px;
+    }
+}
 
 
 /*모바일*/
-@media screen and (max-width:767px) {}
+@media screen and (max-width:767px) {
+    #intro3::after{
+        width: 156px;
+        height: 151px; 
+        right: -7%;
+        top: 230px;
+    }
+}
 
 
 /*모바일2*/
@@ -24,4 +46,8 @@
 
 
 /*모바일4 아이폰*/
-@media screen and (max-width:375px) {}
+@media screen and (max-width:375px) {
+    #intro3::after{
+        top: 280px;
+    }
+}

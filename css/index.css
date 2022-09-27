@@ -30,9 +30,10 @@ body{
 }
 
 .layer {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
+  z-index: -1;
 }
 
 
@@ -46,3 +47,123 @@ body{
 
 
 /*헤더*/
+
+/*intro2*/
+#intro2{
+  width: 100%;
+  height: 100%;
+  padding-bottom: 100px;
+  text-align: center;
+  position: relative;
+}
+#intro2::after{
+  content: '';
+  width: 595px;
+  height: 600px;
+  background: url("../img/bg_icon 3.png")no-repeat;
+  background-size: contain;
+  position: absolute;
+  right: -7%;
+  top: -170px;
+  transform: rotate(17.08deg);
+}
+#intro2::before{
+  content: '';
+  width: 969px;
+  height: 978px;
+  background: url("../img/bg_icon 3.png")no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: -14%;
+  top: 460px;
+  transform: rotate(17.08deg);
+}
+#intro2 .intro2_wrap{
+  width: 100%;
+}
+#intro2 .intro2_wrap .intro2_top{
+  width: 100%;
+  padding: 100px 0 50px;
+  border-radius: 0px 0px 30px 30px;
+  background: linear-gradient(180deg, rgba(151, 151, 151, 0) 0%, rgba(31, 208, 224, 0.18) 47.4%, rgba(151, 151, 151, 0) 100%);
+}
+#intro2 .intro2_wrap .intro2_top .txt{
+  color: #fff;
+}
+#intro2 .intro2_wrap .intro2_top .txt p{
+  margin-bottom: 25px;
+}
+#intro2 .intro2_wrap .intro2_top .txt .txt_1{
+  margin: 40px 0;
+}
+#intro2 .intro2_wrap .intro2_bottom{
+  width: 100%;
+}
+#intro2 .intro2_wrap .intro2_bottom img{
+  width: 80%;
+  margin-top: 3%;
+}
+
+/*intro3*/
+#intro3{
+  width: 100%;
+  height: 100%;
+  padding: 100px 0;
+  text-align: center;
+  position: relative;
+}
+#intro3::after{
+  content: '';
+  width: 536px;
+  height: 541px;
+  background: url("../img/bg_icon 3.png")no-repeat;
+  background-size: contain;
+  position: absolute;
+  right: -2%;
+  top: -80px;
+  transform: rotate(17.08deg);
+}
+#intro3::before{
+  content: '';
+  width: 914px;
+  height: 922px;
+  background: url("../img/bg_icon 3.png")no-repeat;
+  background-size: contain;
+  position: absolute;
+  right: -15%;
+  bottom: -240px;
+  transform: rotate(17.08deg);
+  filter: blur(4px);
+}
+#intro3 .intro3_wrap{
+  width: 100%;
+}
+#intro3 .intro3_wrap .int3_img{
+  width: 100%;
+  margin-top: 100px;
+}
+#intro3 .intro3_wrap .int3_img img{
+  width: 80%;
+  margin-bottom: 5%;
+}
+#intro3 .intro3_wrap .intro3_contents{
+  width: 100%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#intro3 .intro3_wrap .intro3_contents .int3_box{
+  width: 40%;
+  height: 250px;
+  margin: 2% 3%;
+  padding: 6% 2%;
+  background: linear-gradient(180deg, rgba(217, 217, 217, 0.4) 0%, rgba(217, 217, 217, 0.1) 66.15%, rgba(217, 217, 217, 0.3) 100%);
+  /* backdrop-filter: blur(4px); */
+  border-radius: 20px;
+}
+#intro3 .intro3_wrap .intro3_contents .int3_box h4{
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 4%;
+}
