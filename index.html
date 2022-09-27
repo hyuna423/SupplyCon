@@ -15,6 +15,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
 
     <link rel="stylesheet" href="css/reset.css">
@@ -27,7 +28,7 @@
     <link href="img/favicon.ico" rel="apple-touch-icon">
 
     <!--js-->
-    <script src="js/jquery-3.6.1.min.js"></script>    
+    <script src="js/jquery-3.6.1.min.js"></script>
     <script src="js/menu_scroll.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -37,24 +38,173 @@
 <body>
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <script src='http://cdnjs.cloudflare.com/ajax/libs/gsap/1.15.0/TweenMax.min.js'></script>
-    
-      
-    
-        <script  src="js/script.js"></script>
+
+
+
+    <script src="js/script.js"></script>
+
 
     <header>
+
+        <div class="hd_all">
+
+            <hgroup>
+
+                <h1><a href="index.html"><img src="img/SupplyCon_Logo_.png" alt="logo"></a></h1>
+
+            </hgroup>
+
+
+            <nav class="pc_wrap strip colour-5">
+                <ul>
+
+                    <li><a href="#home" class="scroll">Home</a></li>
+                    <li><a href="#intro1" class="scroll">About</a></li>
+                    <li><a href="#coin" class="scroll">SupplyCon Coin</a></li>
+                    <li><a href="#roadmap" class="scroll">Roadmap</a></li>
+                    <li><a href="#contact" class="scroll">Contact</a></li>
+                </ul>
+            </nav>
+
+
+            <input type="checkbox" id="active">
+            <label for="active" class="menu-btn"><span></span></label>
+            <label for="active" class="close"></label>
+
+            <nav class="wrapper">
+                <ul>
+
+                    <li><a href="#home" class="scroll">Home</a></li>
+                    <li><a href="#intro1" class="scroll">About</a></li>
+                    <li><a href="#coin" class="scroll">SupplyCon Coin</a></li>
+                    <li><a href="#roadmap" class="scroll">Roadmap</a></li>
+                    <li><a href="#contact" class="scroll">Contact</a></li>
+
+                </ul>
+
+            </nav>
+
+        </div>
 
     </header>
 
 
+
+
     <main>
+
+        <section id="home">
+            <div class="main_vid">
+                <video autoplay="" muted="" loop="" playsinline="">
+                    <source src="vid/main_vid.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="main_area container">
+                <div class="main_txt">
+                    <h4 class="txt_left" data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">블록체인 기술을 접목한 전략,</h4>
+                    <h2 class="focus-in-expand-fwd" data-aos-duration="500">SupplyCon</h2>
+                    <h4 class="txt_right"data-aos="fade-left"
+                    data-aos-anchor="#example-anchor"
+                    data-aos-offset="500"
+                    data-aos-duration="500">6대 광물 글로벌 서플라이체인</h4>
+                    <p class="focus-in-expand ">블록체인을 통해 획득한 투명성, 보안성, 안전성, 비용효율성<br>
+                        글로벌 중요 광물의 공정한 배분과 사업의 수익성을 창출합니다
+                    </p>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="down"><!-- down -->
+            <div class="down_area">
+                <button>
+                  <a href="">
+                    Whitepaper</a>
+                </button>
+                <button>
+                  <a href="">
+                    Wallet</a>
+                </button>
+                <button>
+                    <a href="index_eng.html">English <img src="img/wep_eng.png" alt="English"></a>
+                </button>
+              </div>
+        </section><!-- down -->
+
+
+        <section id="intro1"><!-- intro1 -->
+            <div class="intro1_bg"></div>
+
+            <div class="intro1_wrap contents">
+                <div class="intro1_block_box">
+                <div class="intro1_txt">
+                    <h3>Intro.</h3>
+
+                    <p>서플라이콘은 supply(공급)과 continuity(연속성)의 합성어로 핵심 광물의 공급을 지속적이고 안정적으로<br>
+                        하고자하는 프로젝트 개발사 및 재단의 미래적 가치와 의지가 담겨 있습니다.<br>
+                        각 광물의 특성에 맞는 채굴방식, 원가산정, 상품 및 정제과정, 상품화 과정이 필요함에도<br>
+                        각 광물의 특성에 맞지 않는 천편일률적인 관리와 거래방식이 도입되어 온 것이 사실입니다.<br>
+                        <br class="">
+                        서플라이콘 기존 시장의 악습을 탈피한 시장선도적 질서를 구축합니다.
+                    </p>
+                </div>
+                </div>
+            </div>
+        </section><!-- intro1 -->
+
+        <section id="contact">
+            <div class="con_area container" >
+                <h3 data-aos="fade-up"
+                data-aos-duration="3000">Contact</h3>
+                <div class="con_box" data-aos="zoom-in">
+                    <div class="con_left">
+                        <img src="img/con_logo.png" alt="logo">
+                        <ul class="con_int">
+                            <li><i class="xi-profile-o"></i><b>CEO |</b></li>
+                            <li><i class="xi-building"></i><b>ADDRESS</b> |</li>
+                            <li><i class="xi-mobile"></i><b>PHONE</b> </li>
+                        </ul>
+                    </div>
+                    <div class="con_right">
+                        <h4>Ask for a quotation from us !</h4>
+                        <form class="gform" action="" data-email="contact@semicon1.net" method="">
+                            <input type="email" value placeholder="E-mail" class="email" required style="color: #fff !important;">
+                            <textarea name="message" id="message" placeholder="Message" ></textarea>
+                            <input type="submit" value="SEND" class="send">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </main>
 
-    
-    <footer>
 
+    <footer>
+        <div class="footer_area container">
+            <div class="sns_area">
+                <h4>SNS</h4>
+                <div class="sns_icon">
+                    <a href=""><i class="xi-telegram"></i></a>
+                    <a href=""><i class="xi-kakaotalk"></i></a>
+                </div>
+            </div>
+            <div class="logo_area">
+                <img src="img/SupplyCon_Logo_f.png" alt="">
+            </div>
+            <div class="white_area">
+                <h4>Whitepaper</h4>
+                <button><a href="supplycon white paper Ver.01- Kor.pdf"><i class="xi-file-upload"></i></a> </button>
+                <button class="eng"><a href="supplycon white paper Ver.01- Eng.pdf"><i class="xi-file-upload"></i></a></button>
+            </div>
+        </div>
     </footer>
+
+    <script>
+        AOS.init();
+    </script>
 
 
 </body>

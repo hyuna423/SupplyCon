@@ -1,3 +1,14 @@
+#home .main_area .main_txt h4.txt_left {
+    text-align: center;
+}
+
+#home .main_area .main_txt p {
+    width: 40%;
+    margin: 0 auto;
+}
+
+#home .main_area h2 {
+    margin: 14% 0 15% 0;}
 
 /*데탑*/
 @media screen and (max-width:1440px) {}
