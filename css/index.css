@@ -24,7 +24,7 @@ h3 {
 
 @import "compass/css3";
 
-body{
+html,body{
   overflow-x: hidden;
   background: #102a46;
 }
