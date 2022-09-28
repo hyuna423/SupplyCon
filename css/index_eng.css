@@ -16,13 +16,24 @@
     margin-left: 0;
 }
 
-.rdmap_box{
-    padding: 1% 2%;
+.coin_perc_right{
+    margin-left: 0;
 }
 
+.rdmap_box{
+    height:100%;
+}
 
 /*데탑*/
-@media screen and (max-width:1440px) {}
+@media screen and (max-width:1440px) {
+    #intro3::after{
+        right: -9%;
+        top: -5px;
+    }
+    #home .main_area h2 {
+        margin: 24% 0 30% 0;
+    }
+}
 
 
 /*노트북*/
@@ -42,8 +53,9 @@
 
     /*rdmap*/
 
-    .rdmap_box{
-        font-size: 0.87em;
+    #intro3::after{
+        right: 0;
+        top: 140px;
     }
 }
 
@@ -52,11 +64,16 @@
 @media screen and (max-width:991px) {
     .coin_perc_left{
         width: 100%;
-        margin-left: 25%;
     }
 
     .coin_perc_right{
         width: 100%;
+        margin-left: 0;
+    }
+
+    #intro3::after{
+        right: -2%;
+        top: 120px;
     }
 }
 
@@ -73,14 +90,27 @@
         width: 100%;
     }
 
-    .coin_perc_right{
-        margin-left: 25%;
+
+    #intro3::after{
+        width: 156px;
+        height: 151px; 
+        right: -7%;
+        top: 230px;
     }
 }
 
 
 /*모바일2*/
-@media screen and (max-width:576px) {}
+@media screen and (max-width:576px) {
+    #home .main_area h2 {
+        margin: 34% 0 36% 0;
+    }
+
+    #home .main_area .main_txt p {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
 
 
 /*모바일3 갤럭시*/
@@ -88,4 +118,9 @@
 
 
 /*모바일4 아이폰*/
-@media screen and (max-width:375px) {}
+@media screen and (max-width:375px) {
+    #intro3::after{
+        top: 280px;
+    }
+
+}

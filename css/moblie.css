@@ -18,6 +18,10 @@
         transform: translate(-50%, -50%);
     }
 
+    #home .main_area h2 {
+        margin: 22% 0 25% 0;
+    }
+
     #home .main_area {
         height: 50%;
     }
@@ -31,12 +35,47 @@
         right: -10%;
     }
 
+
     #contact {
         width: 100%;
         height: 100%;
 
     }
 
+    #intro2::after {
+        width: 495px;
+        height: 500px;
+        right: -3%;
+    }
+
+    #intro2::before {
+        width: 765px;
+        height: 780px;
+    }
+
+    #intro3::after {
+        width: 446px;
+        height: 451px;
+        right: -3%;
+        top: -20px;
+    }
+
+    #intro3::before {
+        width: 849px;
+        height: 838px;
+        right: -25%;
+        bottom: -150px;
+    }
+
+    #intro3 .intro3_wrap .intro3_contents .int3_box {
+        width: 49%;
+        margin: 2% auto;
+        padding: 7% 5%;
+    }
+
+    #intro3 .intro3_wrap .intro3_contents .int3_box br {
+        display: none;
+    }
 
     .bg_icon3_coin_2::after {
         width: 497px;
@@ -94,7 +133,8 @@
     /*coin*/
 
     .coin_wrap p {
-        font-size: 0.9em;
+        width: 80%;
+        margin: 0 auto;
     }
 
     .coin_contents_left {
@@ -104,6 +144,51 @@
     .coin_contents_right {
         width: 48%;
         padding: 5% 1%;
+    }
+
+    #intro2::after {
+        width: 395px;
+        height: 400px;
+        right: -13%;
+        top: -80px;
+    }
+
+    #intro2::before {
+        width: 465px;
+        height: 480px;
+        left: -17%;
+        top: 580px;
+    }
+
+    #intro2 .intro2_wrap .intro2_top {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #intro3::after {
+        width: 246px;
+        height: 251px;
+        right: -3%;
+        top: 80px;
+    }
+
+    #intro3::before {
+        width: 449px;
+        height: 438px;
+        right: -20%;
+        bottom: -40px;
+    }
+
+    #intro3 .intro3_wrap .intro3_contents .int3_box {
+        height: auto;
+    }
+
+    #intro3 .intro3_wrap .intro3_contents .int3_box p {
+        word-break: keep-all;
+    }
+
+    #intro3 .intro3_wrap .intro3_contents .int3_box p br {
+        display: none;
     }
 
 
@@ -117,7 +202,6 @@
     .rdmap_box {
         width: 31.8%;
         height: 300px;
-        font-size: 0.95em;
     }
 
     .bg_icon3_coin_2 img {
@@ -161,13 +245,43 @@
         right: -82%;
     }
 
-    #intro1 .intro1_bg img{
-        max-width: 60%;
-    }
-    .intro1_txt p {
-        font-size: 0.8rem;
+    #intro1 .intro1_bg img {
+        max-width: 90%;
     }
 
+
+    #intro2::after {
+        width: 295px;
+        height: 200px;
+        right: -15%;
+        top: -60px;
+    }
+
+    #intro2::before {
+        width: 365px;
+        height: 380px;
+        left: -17%;
+        top: 580px;
+    }
+
+    #intro2 .intro2_wrap .intro2_top {
+        width: 95%;
+    }
+
+    #intro2 .intro2_wrap .intro2_bottom img {
+        width: 90%;
+    }
+
+    #intro3::after {
+        width: 246px;
+        height: 251px;
+        right: -3%;
+        top: 130px;
+    }
+
+    #intro3 .intro3_wrap .intro3_contents .int3_box {
+        width: 80%;
+    }
 
     /*coin*/
 
@@ -181,6 +295,10 @@
         bottom: -39%;
     }
 
+    .coin_cont_right_wrap {
+        margin-left: 0;
+    }
+
 
     .coin_wrap p br {
         display: none;
@@ -192,12 +310,13 @@
 
     .coin_perc_left {
         width: 100%;
-        margin-left: 25%;
+        text-align: center;
     }
 
     .coin_perc_right {
         width: 100%;
-        margin-left: 25%;
+        text-align: center;
+
     }
 
     .coin_bg_logo::after {
@@ -221,9 +340,9 @@
 
 
     .rdmap_box {
-        width: 50%;
+        width: 90%;
         height: 300px;
-        font-size: 0.9em;
+        padding: 5%;
         margin: 0 auto 10%;
     }
 
@@ -266,7 +385,7 @@
 
     .bg_icon3_coin_2 img {
         max-width: 60%;
-        height:auto;
+        height: auto;
         position: absolute;
         left: -30%;
         top: -20%;
@@ -285,10 +404,12 @@
         box-shadow: 0px 7px 7px -7px #81F59A;
         padding: 1% 1% 12%;
     }
+
     .coin_box span {
         width: 18px;
-        height: 7px;}
-        
+        height: 7px;
+    }
+
     .coin_percentage {
         display: flex;
         width: 90%;
@@ -332,6 +453,50 @@
     }
 
 
+    #intro2::after {
+        right: -15%;
+        top: -40px;
+    }
+
+    #intro2::before {
+        width: 265px;
+        height: 280px;
+        left: -10%;
+        top: 680px;
+    }
+
+    #intro2 .intro2_wrap .intro2_top {
+        width: 100%;
+    }
+
+    #intro2 .intro2_wrap .intro2_top .txt p {
+        word-break: keep-all;
+    }
+
+    #intro2 .intro2_wrap .intro2_top .txt p br {
+        display: none;
+    }
+
+    #intro2 .intro2_wrap .intro2_bottom img {
+        width: 100%;
+    }
+
+    #intro3::after {
+        width: 196px;
+        height: 191px;
+        right: -7%;
+        top: -50px;
+    }
+
+    #intro3 .intro3_wrap .intro3_contents .int3_box {
+        width: 90%;
+    }
+
+    #intro3 .intro3_wrap .int3_img img {
+        width: 100%;
+    }
+
+
 
     /*rdmap*/
 
@@ -345,6 +510,10 @@
 
 /*모바일2*/
 @media screen and (max-width:576px) {
+    h3 {
+        font-size: 2em;
+    }
+    
     #home .main_area .main_txt h4 {
         font-size: 1.6rem;
     }
@@ -370,6 +539,31 @@
     #contact .con_area .con_box .con_right {
         width: 100%;
         padding: 5%;
+    }
+
+    #intro1 .intro1_bg {
+        position: absolute;
+        top: -27%;
+        right: -154%;
+    }
+
+    #intro3::after {
+        width: 176px;
+        height: 171px;
+    }
+
+    #intro2 .intro2_wrap {
+        width: 90%;
+    }
+
+    #intro2 .intro2_wrap .intro2_bottom img {
+
+        display: none;
+    }
+
+    #intro2 .intro2_wrap .intro2_bottom img.m_int2 {
+        display: block;
+        max-width: 100%;
     }
 
     footer .footer_area {
@@ -400,12 +594,10 @@
 
     .coin_perc_left {
         width: 100%;
-        margin-left: 26%;
     }
 
     .coin_perc_right {
         width: 100%;
-        margin-left: 26%;
     }
 
     .bg_icon3_coin::after {
@@ -422,7 +614,6 @@
 
     .rdmap_box {
         width: 80%;
-        font-size: 0.8em;
     }
 
     .bg_icon3_rdmap::after {
@@ -434,7 +625,28 @@
 
 
 /*모바일3 갤럭시*/
-@media screen and (max-width:425px) {}
+@media screen and (max-width:425px) {
+    #intro2::after {
+        width: 195px;
+        height: 190px;
+        right: -10%;
+        top: -40px;
+    }
+
+    #intro2::before {
+        left: -16%;
+        top: 680px;
+    }
+
+    #intro3::after {
+        right: -6%;
+        top: 180px;
+    }
+
+    .intro1_txt h3::after {
+        width: 288px;
+    }
+}
 
 
 /*모바일4 아이폰*/
@@ -442,4 +654,20 @@
     #home .main_area .main_txt p {
         font-size: 12px;
     }
+
+    #intro2::after {
+        width: 185px;
+        height: 180px;
+    }
+
+    #intro2::before {
+        left: -18%;
+        top: 780px;
+    }
+
+    #intro3::after {
+        right: -15%;
+        top: 190px;
+    }
+
 }
